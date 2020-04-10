@@ -13,6 +13,7 @@
 	padding: 10px;
 	margin: 10px;
 	box-shadow: 1px 1px 10px 1px #CCC7,0px 0px 0px 1px #3333333d;
+	position: relative;
 }
 .todoContainer {
 
