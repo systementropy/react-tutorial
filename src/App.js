@@ -2,6 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
 import Todos from './Components/Todos'
+import Header from './Components/Layout/Header'
 // function App() {
 class App extends React.Component{
 	constructor(props){
@@ -79,7 +80,7 @@ class App extends React.Component{
 	render(){
 		return (
 			<div className="App">
-				<h1>Hello World</h1>
+				<Header></Header>
 				<Todos todos = {this.state.todos} markComplete={this.markComplete} delete={this.delete}></Todos>
 			</div>
 		  );

@@ -24,17 +24,17 @@ TodoItem.propTypes = {
 	todo:PropTypes.object.isRequired
 }
 const btnStyle ={
-	padding :'2px 10px',
+	padding :'2px 20px',
 	fontStyle: 'normal',
 	fontSize: '20px',
-	lineHeight: '30px',
-	borderRadius: '50%',
-	background: '#F00',
+	lineHeight: '60px',
+	background: '#F007',
 	textDecoration: 'unset',
 	// transform : 'rotate(45deg)',
 	position: 'absolute',
-	right: '10px',
-	top: '10px',
-	cursor: 'pointer'
+	right: '0px',
+	top: '0px',
+	cursor: 'pointer',
+	height: '100%',
 };
 export default TodoItem
