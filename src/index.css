@@ -1,10 +1,11 @@
 body {
   margin: 0;
   font-family: Montserrat,'Ubuntu',sans-serif;
+  font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
+h1,h2,h3,h4,b,strong,code {
   font-family: Cormorant, monospace;
 }
