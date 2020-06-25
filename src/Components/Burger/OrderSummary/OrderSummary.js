@@ -16,6 +16,9 @@ const orderSummary = (props) => {
 			<ul className={classes.listContainer}>
 				{ingredientSummary}
 			</ul>
+			<hr />
+			<b>Total Price : Rs. {props.price.toFixed(2)}</b>
+			<hr />
 			<p>Continue...</p>
 			<Btn clicked={props.cancel} btnType='Danger'>Cancel</Btn>
 			<Btn clicked={props.continue} btnType='Success'>Continue</Btn>
