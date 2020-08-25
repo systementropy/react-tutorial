@@ -4,11 +4,13 @@ import Btn from '../../UI/Button/Button'
 import classes from './OrderSummary.module.css';
 const orderSummary = (props) => {
 	const ingredientSummary = Object.keys(props.ingredient).map(igKey => {
-										return (<li key={igKey} className={classes.listItem}>
-												<span style={{textTransform:'capitalize'}}>{igKey}:</span>
-												<span>{props.ingredient[igKey]}</span>
-											</li>)
-									})
+		return (
+			<li key={igKey} className={classes.listItem}>
+				<span style={{textTransform:'capitalize'}}>{igKey}:</span>
+				<span>{props.ingredient[igKey]}</span>
+			</li>
+		)
+	})
 	return (
 		<Aux>
 			<h2>In your Cart</h2>
